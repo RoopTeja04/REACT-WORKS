@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+}
+.navbar{
+  height: 15vh;
+  background-color:lightsteelblue;
+  font-size: 23px;
+  display: flex;
+  flex-direction: row;
+}
+.logo-name{
+  height: 70px;
+  width: 80px;
+  padding-top: 20px;
+}
+.navbar-left{
+  padding-top: 25px;
+  padding-left: 20px;
+  font-weight:700px;
+  font-family: "Roboto", sans-serif;
+  padding-right: 31.5%;
+}
+.navbar-right{
+  display: flex;
+  flex-direction: row;
+  font-size: 40px;
+  padding-top: 35px;
+  padding-right:60px;
+  font-family: "Poppins", sans-serif;
+  justify-content: space-between;
+}
+.contents{
+  padding-right: 80px;
+  font-size: 20px;
+  font-weight: 800px;
+}
+.body-right{
+  margin-left: 25%;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 500;
+  padding-top: 12%;
+  padding-right:4%;
+  font-family: "Poppins", sans-serif;
+}
+.services-section{
+  background-color: white;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-top: 10%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.service-card{
+  border: 2px solid black;
+  height: 30vh;
+  width: 30%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.content{
+  padding-top: 5%;
+  font-size: 18px;
+}
+.python{
+  height: 10vh;
+  width: 200h;
+  padding-top: 10px;
+}
+.front-end{
+  height: 10vh;
+  width: 200h;
+  padding-top: 10px;
+}
+.react{
+  height: 10vh;
+  width: 200h;
+  padding-top: 10px;
+}
+.contacts{
+  background-color:hsl(278, 46%, 53%);
+  height: 35vh;
+  text-align: center;
+  padding-top: 50px;
+}
+.contact-info{
+  display: flex;
+  flex-direction: row;
+  padding-left: 35%;
+}
+.social-media{
+  height: 10vh;
+  width: 200h;
+  padding-top: 10px; 
+  padding: 20px;
+}
+.hi-main{
+  height: 45vh;
+  width: 180%;
+  border-radius: 25px;
+}
+.body{
+  display: flex;
+  flex-direction: row;
+  background-color: slateblue;
+  height: 85vh;
+}
+.body-left{
+  padding-left: 40px;
+  padding-top: 10%;
+  border-radius: 20px;
+}

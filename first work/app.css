@@ -1,0 +1,92 @@
+*{
+    background-image: url("jonatan-pie-3N5ccOE3wGg-unsplash.jpg");
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-size: cover;
+  }
+  .main{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid white;
+    height: 75vh;
+    width: 30%;
+    position: absolute;
+    transform:translate(-50%, -50%);
+    top:50%;
+    left: 50%;
+    border-radius: 30px;
+    background-image: none;
+    box-sizing: border-box;
+  }
+  .details{
+    font-size: 20px;
+    padding-top: 25px;
+    background-image: none;
+  }
+  .head{
+    margin-top: 20px;
+    border-bottom: 3px solid white;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 10px;
+    background-image: none;
+  }
+  .signin{
+    height: 45px;
+    width: 20vh;
+    color: aquamarine;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(78, 78, 236);
+    color: black;
+    font-size: 20px;
+    border-radius: 25px;
+    background-image: none;
+    outline: none;
+    border: none;
+  }
+  .signup{
+    height: 45px;
+    width: 20vh;
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(76, 180, 76);
+    background-image: none;
+    outline: none;
+    border: none;
+  }
+  .enter{
+    background: none;
+  }
+  .forgot{
+    margin-top: 20px;
+    font-size: 25px;
+    background-image: none;
+  }
+  .forgot:hover{
+    color:black;
+    font-size: 28px;
+  }
+  .details{
+    font-size: 20px;
+  }
+  .details label{
+    background: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+  }
+  .details input{
+    border: none;
+    border-bottom: 3px solid white;
+    outline: none;
+    background: none;
+    width: 80%;
+    padding-top: 10px;
+    font-size: 25px;
+  }
+  
