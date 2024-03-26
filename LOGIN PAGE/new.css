@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.newtab{
+    background-image: url("roman-denisenko-_XLmDKEvxrk-unsplash.jpg") ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 150px; 
+    text-align: center;
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.newtab-sub{
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+    width:400px;
+    height: 600px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+    position: absolute;
+    border-radius: 20px;
+}
+.newtab-sub form{
+    box-sizing: border-box;
+    padding:20px 20px 20px 20px;
+}
+h1{
+    margin:10px 0px 20px 0px;
+}
+form .ac-setup{
+    position: relative;
+    margin: 30px 0px 0px 0px;
+    border-bottom:1px solid black;
+    text-align: left;
+}
+.ac-setup label{
+    position: relative;
+    transform: translateY(-60%);
+    font-size: 18px;
+    pointer-events: none;
+    color: black;
+    font-weight: 700;
+
+}
+.ac-setup input{
+    background: transparent;
+    outline: none;
+    border: none;
+    width:100%;
+    padding: 0px 10px 0px 10px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 22px;
+}
+button{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    width: 60%;
+    height:40px;
+    font-size: 18px;
+    border:0px solid;
+    font-weight: 500;
+    cursor:pointer;
+    outline:none;
+    margin:5px 0px 10px 0px;
+}
+.ac-setup:hover{
+    transition: 14px  5s ease-out 0s;
+}

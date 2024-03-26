@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.main-page{
+    text-align: center;
+    background-image:url("viraj-chohan-fWW52f-8aOw-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    padding-top: 250px;
+}
+.main{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+    border-radius: 15px;
+    border:2px solid black;
+}
+.main form{
+    padding:0px 40px 0px 40px;
+    box-sizing: border-box;
+}
+.main h1{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+form .namesetup{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0px 0px 0px;
+}
+.namesetup label{
+    position: absolute;
+    color:#adadad;
+    transform: translateY(-60%);
+    font-size: 15px;
+    pointer-events: none;
+    text-transform: capitalize;
+}
+.namesetup input{
+    width: 100%;
+    padding: 0px 5px;
+    height: 40px;
+    border:none;
+    background: none;
+    outline: none;
+    font-size: 17px;
+}
+#submit{
+    width: 100px;
+    height: 50px;
+    border:0px solid;
+    background-color: #0c69a7;
+    border-radius: 25px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    cursor:pointer;
+    outline:none;
+    margin-top:10px;
+}
+.namesetuppass{
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.pass{
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    padding-left: 30px;
+    text-decoration: none;
+    color: white;
+}
+#button-1{
+    width: 100px;
+    height: 50px;
+    border:0px solid;
+    background-color: #260d81;
+    border-radius: 25px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    cursor:pointer;
+    outline:none;
+    margin-top:10px;  
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.request{
+    text-align: left;
+    margin:10px 0px 10px 0px;
+}
