@@ -6,7 +6,7 @@ function App() {
       <h1 className="head">SIGN IN</h1>
       <div className="enter">
         <div className="details">
-          <label className="name" >User Name<br></br>
+          <label className="name" >Email Name<br></br>
             <input type="text" ></input>
           </label>
           <br></br>
